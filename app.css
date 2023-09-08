@@ -42,12 +42,13 @@ __________________________________________*/
     display: inline-block;
     font-weight: bold;
 }
-.header a:hover{
+.header .navbar li :hover{
     color:  #e9a372;
     border-bottom: 3px inset #C54BA5;
     padding-bottom: 5px;
   
 }
+
 
 .header a{
     color: #C54BA5;
@@ -341,6 +342,105 @@ form .input-field {
     opacity:0.8;
  }
 
+/* Products
+__________________________________________*/
+
+
+.products {
+    text-align:center;
+    margin-top:100px;
+    padding:30px;
+}
+
+.products h2{
+    font-size: 25px;
+    color:#C54BA5;
+    height:60px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background:radial-gradient(circle, rgba(255,247,173,1) 0%, rgba(249,216,246,100) 70%);
+}
+
+.products .pro-con{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-top:20px;
+}
+
+.products .product {
+    margin-top:45px;
+    width:23%;
+    min-width:250px;
+    padding: 10px 20px;
+    border: 3px outset #C54BA5;
+    background-color:#fae1f8;
+    border-radius:20px;
+    cursor:pointer;
+    transition:all 0.4 ease;
+    position:relative;
+}
+
+.products .product:hover {
+    box-shadow: 10px 10px 10px rgba(255, 247, 173, 1);
+}
+
+
+.products .product img {
+   width:100%;
+   padding-top:8px;
+   border-radius:20px;
+
+}
+
+.products .product .description{
+    text-align:start;
+    padding:8px 0;
+}
+
+.products .product .description span{
+    color:#96915b;
+    text-size:10px;
+}
+
+.products .product .description h4{
+    color:#C54BA5;
+    font-size:18px;
+    padding-top:6px;
+}
+
+.products .product .description h3{
+    color:#6f0a67;
+    font-size:20px;
+    padding-top:6px;
+}
+
+.products .product .heart {
+    width:45px;
+    height:42px;
+    line-height: 36px;
+    border-radius:20px;
+    background-color:#efefef;
+    color:#6f0a67;
+    border: 2px outset #C54BA5;
+    position:absolute;
+    right:70px;
+    bottom:15px;
+ }
+
+ .products .product .cart {
+    width:45px;
+    height:42px;
+    line-height: 36px;
+    border-radius:20px;
+    background-color:#efefef;
+    color:#6f0a67;
+    border: 2px outset #C54BA5;
+    position:absolute;
+    right:20px;
+    bottom:15px;
+ }
 
 /* Contact
 __________________________________________*/
