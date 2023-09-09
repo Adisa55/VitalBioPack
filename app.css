@@ -22,7 +22,7 @@ __________________________________________*/
     z-index: 1000;
     background-color: #fff;
     justify-content: space-between;
-    color: #C54BA5;
+    
   }
 
 
@@ -49,6 +49,25 @@ __________________________________________*/
   
 }
 
+.header  .icons{
+    width:10px;
+    margin-right:0;
+    display:flex;
+    align-items:center;
+   
+}
+
+.header  .icons a{
+    font-size: 23px;
+    margin-left:35px;
+
+}
+
+.header .icons a:hover{
+    color:  #e9a372;
+
+}
+
 
 .header a{
     color: #C54BA5;
@@ -59,6 +78,7 @@ __________________________________________*/
     gap: 10px; 
     margin-right: 15px; 
     padding: 25px;
+    
 
    
 }
@@ -87,6 +107,7 @@ __________________________________________*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color:#C54BA5;
     transition:all 0.4 ease;
+    background-color:#efefef;
 
 }
 
@@ -201,7 +222,7 @@ __________________________________________*/
 .signup-login{
    
     width:100%;
-    min-height: 750px;
+    min-height: 950px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -442,6 +463,127 @@ __________________________________________*/
     bottom:15px;
  }
 
+ .numbers{
+    text-align:center;
+    width:100%;
+    height:150px;
+    justify-content:center;
+    align-items:center;
+    display: flex; 
+   
+ }
+
+ .numbers a{
+    border-radius:10px;
+    font-size:20px;
+    border: 2px outset #C54BA5;
+    padding: 7px 15px;
+    color:#6f0a67;
+    margin-bottom:20px;
+    margin-right:6px; 
+    font-weight:600; 
+ }
+
+ .numbers a:hover{
+    background-color:#C54BA5;
+    color:#fff;
+ }
+
+ .details{
+    width:100%;
+    display:flex;
+    margin-top:100px;
+    background:radial-gradient(circle, rgba(255,247,173,1) 0%, rgba(249,216,246,100) 70%);
+
+ }
+
+ .details .oneproduct{
+   width: 48%;
+   min-height:650px;
+   margin-right:40px;
+ }
+
+ .details .oneproduct img{
+    width: 70%;
+    margin:70px;
+    border: 2px outset #C54BA5;
+    border-radius: 25px;
+
+  }
+
+ .details .info{
+   width: 48%;
+   padding-top:30px;
+   margin-left:100px;
+   
+ }
+
+ .details .info h3{
+    font-size:30px;
+    color:#C54BA5;
+ }
+
+ .details .info h4{
+    padding: 25px 0 15px 0;
+    font-size:20px;
+ }
+
+ .details .info h2{
+    font-size:30px;
+    color:#6f0a67;
+ }
+ 
+ .details .info input{
+    justify-content:center;
+    width:70px;
+    height:45px;
+    font-size:16px;
+    border: 2px outset #C54BA5;
+    font-weight:600; 
+    color:#C54BA5;
+    background-color:#efefef;
+ }
+
+ .details .info .con1{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:25%;
+    height:30px;
+    margin-top:18px;
+    
+  }
+
+  .details .info a{
+     font-size:30px;
+     color:#C54BA5;
+  }
+
+ .details .info .con2{
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   width:40%;
+   height:60px;
+   margin-top:18px;
+   
+ }
+
+ .details .info .average{
+    margin-bottom:30px;
+    color:#6f0a67;
+    font-weight:bold;
+   
+ }
+ .details .info  .value{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px inset #C54BA5;
+ }
+ 
+
+
 /* Contact
 __________________________________________*/
 
@@ -506,6 +648,7 @@ __________________________________________*/
  .footer{
     background: #f2f2ef;
     padding: 15px;
+    
 }
 
  .footer .credit{
@@ -513,4 +656,4 @@ __________________________________________*/
     justify-content:center;
     font-size: 17px;
     color:#C54BA5;
-}
+ }
