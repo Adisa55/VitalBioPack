@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Gluten Free Flour",
+        "image": "../images/products/flour1.jpeg",
+        "description": "Chocolate, Banana & Hazelnut",
+        "price": 4,
+        "filter": "Flour"
+    },
+    {
+        "name": "Honey",
+        "image": "../images/products/honeyy.jpeg",
+        "description": "Chocolate, Banana & Hazelnut",
+        "price": 3.8,
+        "filter": "Other"
+    },
+    {
+        "name": "Boom Box oatmeal",
+        "image": "../images/products/boombox1.jpeg",
+        "description": "Chocolate, Banana & Hazelnut",
+        "price": 3,
+        "filter": "Oatmeal"
+    },
+    {
+        "name": "Chia Seeds",
+        "image": "../images/products/chia.jpeg",
+        "description": "Chocolate, Banana & Hazelnut",
+        "price": 1.5,
+        "filter": "Other"
+    }
+]

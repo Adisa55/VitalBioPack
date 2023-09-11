@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="app.css">
 
 </head>
+
 <body>
 
     <header class="header">
@@ -33,8 +35,8 @@
         </div>
 
         <div class="button">
-            <button><a href="SignUp.html" >SignUp</a></button>
-            <button><a href="LogIn.html" >LogIn</a></button>
+            <button><a href="SignUp.html">SignUp</a></button>
+            <button><a href="LogIn.html">LogIn</a></button>
         </div>
 
     </header>
@@ -42,98 +44,55 @@
     <main>
 
         <section class="products">
-         <h2>Choose your products...</h2>
+            <h2>Choose your products...</h2>
 
-         <div class="pro-con">
-            <div class="product" onclick="window.location.href='one-product.html'">
-                <img src="../images/products/boombox1.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Boom Box oatmeal</h4>
-                    <h3>3KM</h3>
+            <div class="searching">
+                <div class="con-search">
+                    <input class="search-text" type="text" id="search-input" placeholder="Search for a product..">
+                    <a class="search-btn" href="#">
+                        <i class="fa-solid fa-magnifying-glass search"></i>
+                    </a>
                 </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
             </div>
 
-            <div class="product">
-                <img src="../images/products/chia.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Chia Seeds</h4>
-                    <h3>3KM</h3>
+
+
+
+            <div class="filter-sorting">
+
+                <ul class="filters">
+                    <li data-filter="All"><a href="#">All</a></li>
+                    <li data-filter="Chocolate"><a href="#">Chocolate</a></li>
+                    <li data-filter="Protein"><a href="#">Protein</a></li>
+                    <li data-filter="Milk"><a href="#">Milk</a></li>
+                    <li data-filter="Flour"><a href="#">Flour</a></li>
+                    <li data-filter="Jam"><a href="#">Jam</a></li>
+                    <li data-filter="Oatmeal"><a href="#">Oatmeal</a></li>
+                    <li data-filter="Other"><a href="#">Other</a></li>
+                </ul>
+
+                <div class="sort">
+                    <span>Sort As</span>
+                    <select name="" id="select">
+                        <option value="Default">Default</option>
+                        <option value="az">A-Z</option>
+                        <option value="za">Z-A</option>
+                        <option value="LowHigh">Low to High</option>
+                        <option value="HighLow">High to Low</option>
+                    </select>
+
                 </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+
+
             </div>
 
-            <div class="product">
-                <img src="../images/products/coko1.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Protein Bar Chocolate</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
 
-            <div class="product">
-                <img src="../images/products/flour1.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Gluten Free Flour</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
+            <div class="pro-con">
 
-            <div class="product">
-                <img src="../images/products/honeyy.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Honey</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+              <ul class="product" id="product-list" ></ul>
+       
             </div>
-
-            <div class="product">
-                <img src="../images/products/jam1.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Bio Organic Jam</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="product">
-                <img src="../images/products/kokosovoulje.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Coconut Oil</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-            <div class="product">
-                <img src="../images/products/leca1.jpeg" alt="">
-                <div class="description">
-                    <span>Chocolate, Banana & Hazelnut</span>
-                    <h4>Lentils</h4>
-                    <h3>3KM</h3>
-                </div>
-                <a><i class="fa-regular fa-heart heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-
-         </div>
+            
         </section>
 
         <section id="numbers" class="numbers">
@@ -147,13 +106,16 @@
     </main>
     <footer class="footer" id="fotter">
         <section class="footer" id="footer">
-      
-          <div class="credit"> © 2023 VitalBio Pack - All Rights Reserved.</div>
-        </div>
-      </section>
 
-      
-  
-      </footer>
+            <div class="credit"> © 2023 VitalBio Pack - All Rights Reserved.</div>
+            </div>
+        </section>
+
+
+
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
