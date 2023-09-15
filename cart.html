@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
     <script src="https://kit.fontawesome.com/28c52aa5ff.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Products</title>
 
     <link rel="stylesheet" href="app.css">
+
 </head>
+
 <body>
 
     <header class="header">
 
-        <a class="logo" href="app.html#home#home"><img src="../images/logo.png"></a>
+        <a class="logo" href="app.html#home"><img src="../images/logo.png"></a>
 
 
         <nav class="navbar">
@@ -22,68 +25,29 @@
                 <li><a href="app.html#home">Home</a></li>
                 <li><a href="app.html#aboutus">About Us</a></li>
                 <li><a href="Products.html">Products</a></li>
-                <li><a href="app.html#Contact">Contact</a></li>
+                <li><a href="app.html#contact">Contact</a></li>
             </ul>
         </nav>
 
         <div class="icons">
-            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            <span class="quantity">0</span>
+            <a href=""><i class="fa-solid fa-cart-shopping cart"></i> <span class="quantity">0</span></a>
         </div>
 
-        <div class="button">
-            <button><a href="SignUp.html">SignUp</a></button>
-            <button><a href="LogIn.html">LogIn</a></button>
-        </div>
 
-        </div>
     </header>
-
-
+   
     <main>
-       <section class="cart-p" id="cart-pro">
-        <table>
-            <thead>
-                <tr>
-                    <td>Remove</td>
-                    <td>Image</td>
-                    <td>Name</td>
-                    <td>Price</td>
-                    <td>Quantity</td>
-                    <td>Subtotal</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#"><i class="fa-solid fa-trash trash"></i></a></td>
-                    <td><img src="images/products/boombox1.jpeg"/></td>
-                    <td>Boom Box</td>
-                    <td>3KM</td>
-                    <td><input type="number" value="1"></td>
-                    <td>3KM</td>
-                </tr>
-            </tbody>
-        </table>
 
-       </section>
+     <section class="cp">
 
-       <section class="bill" id="pay-bil">
-         <div class="subtotal">
-            <h3>Total:</h3>
+      <div class="cart-products" >
+      </div>
 
-            <table>
-                    <tr>
-                        <td>Cart Subtotal</td>
-                        <td>Shipping</td>
-                        <td>Total</td>
-                        
-                    </tr>
-            </table>
-         </div>
-
-       </section>
+    </section>
 
     </main>
-    
+
+      <script src="script.js"></script>
 </body>
+
 </html>

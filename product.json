@@ -3,87 +3,98 @@
         "name": "Gluten Free Flour",
         "image": "../images/products/flour1.jpeg",
         "description": "Farina Pasta",
-        "price": 4,
+        "price": 4.0,
         "filter": "Flour",
-        "id": 1
+        "id": 1,
+        "inCart":0
     },
     {
         "name": "Gluten Free Flour",
         "image": "../images/products/flour2.jpeg",
         "description": "Farina",
-        "price": 4,
+        "price": 4.0,
         "filter": "Flour",
-        "id": 2
+        "id": 2,
+        "inCart":0
     }, 
     {
         "name": "Gluten Free Flour",
         "image": "../images/products/flour3.jpeg",
         "description": "Bread",
-        "price": 4,
+        "price": 4.0,
         "filter": "Flour",
-        "id": 3
+        "id": 3,
+        "inCart":0
     }, 
     {
         "name": "Gluten Free Flour",
         "image": "../images/products/flour4.jpeg",
         "description": "Patisserie",
-        "price": 4,
+        "price": 4.0,
         "filter": "Flour",
-        "id": 4
+        "id": 4,
+        "inCart":0
     }, {
         "name": "Gluten Free Flour",
         "image": "../images/products/flour5.jpeg",
         "description": "Universal",
-        "price": 4,
+        "price": 4.0,
         "filter": "Flour",
-        "id": 5
+        "id": 5,
+        "inCart":0
     },
     {
         "name": "Honey",
         "image": "../images/products/honeyy.jpeg",
         "description": "Klarowny",
-        "price": 3.8,
+        "price": 3.5,
         "filter": "Other",
-        "id": 6
+        "id": 6,
+        "inCart":0
     },
     {
         "name": "Boom Box Oatmeal",
         "image": "../images/products/boombox1.jpeg",
         "description": "Chocolate, Banana & Hazelnut",
-        "price": 3,
+        "price": 3.0,
         "filter": "Oatmeal",
-        "id": 7
+        "id": 7,
+        "inCart":0
     },
     {
         "name": "Boom Box Oatmeal",
         "image": "../images/products/boombox2.jpeg",
         "description": "Forest Berries & Almond",
-        "price": 3,
+        "price": 3.0,
         "filter": "Oatmeal",
-        "id": 8
+        "id": 8,
+        "inCart":0
     },{
         "name": "Boom Box Oatmeal",
         "image": "../images/products/boombox3.jpeg",
         "description": "Chocolate & Almonds",
-        "price": 3,
+        "price": 3.0,
         "filter": "Oatmeal",
-        "id": 9
+        "id": 9,
+        "inCart":0
     },
     {
         "name": "Boom Box Oatmeal",
         "image": "../images/products/boombox5.jpeg",
         "description": "Forest Berries, Coconut & Almond",
-        "price": 3,
+        "price": 3.0,
         "filter": "Oatmeal",
-        "id": 10
+        "id": 10,
+        "inCart":0
     },
     {
         "name": "Boom Box Oatmeal",
         "image": "../images/products/boombox4.jpeg",
         "description": "Forest Berries, Coconut & Almond",
-        "price": 3,
+        "price": 3.0,
         "filter": "Oatmeal",
-        "id": 11
+        "id": 11,
+        "inCart":0
     },
     {
         "name": "Chia Seeds",
@@ -91,198 +102,232 @@
         "description": "Natura",
         "price": 1.5,
         "filter": "Other",
-        "id": 12
+        "id": 12,
+        "inCart":0
     },
     {
         "name": "Protein Bar Chocolate",
         "image": "../images/products/coko1.jpeg",
         "description": "Coconut & Milk Chocolate",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Chocolate",
-        "id": 13
+        "id": 13,
+        "inCart":0
     },
     {
         "name": "Protein Bar Chocolate",
         "image": "../images/products/coko2.jpeg",
         "description": "Milk Chocolate",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Chocolate",
-        "id": 14
+        "id": 14,
+        "inCart":0
     },
     {
         "name": "Protein Bar Chocolate",
         "image": "../images/products/coko3.jpeg",
         "description": "Raspberry Cheasecake",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Chocolate",
-        "id": 15
+        "id": 15,
+        "inCart":0
     }, 
     {
         "name": "Protein Bar Chocolate",
         "image": "../images/products/coko4.jpeg",
         "description": "Chocolate Orange",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Chocolate",
-        "id": 16
+        "id": 16,
+        "inCart":0
     }, 
     {
         "name": "Protein Bar Chocolate",
         "image": "../images/products/coko5.jpeg",
         "description": "Cookie & Cream",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Chocolate",
-        "id": 17
+        "id": 17,
+        "inCart":0
     },
     {
         "name": "Bio Jam Extra",
         "image": "../images/products/jam1.jpeg",
         "description": "Strawberry",
-        "price": 2.30,
+        "price": 4.0,
         "filter": "Jam",
-        "id": 18
+        "id": 18,
+        "inCart":0
     }, 
     {
         "name": "Bio Jam Extra",
         "image": "../images/products/jam2.jpeg",
         "description": "Apricot",
-        "price": 2.30,
+        "price": 4.0,
         "filter": "Jam",
-        "id": 19
+        "id": 19,
+        "inCart":0
     }, 
     {
         "name": "Bio Jam Extra",
         "image": "../images/products/jam3.jpeg",
         "description": "Raspberry",
-        "price": 2.30,
+        "price": 4.0,
         "filter": "Jam",
-        "id": 20
+        "id": 20,
+        "inCart":0
     }, 
     {
         "name": "Coconut Oil",
         "image": "../images/products/kokosovoulje.jpeg",
         "description": "Granum",
-        "price": 2.30,
+        "price": 6.0,
         "filter": "Other",
-        "id": 21
+        "id": 21,
+        "inCart":0
     },
     {
         "name": "Lentils",
         "image": "../images/products/leca1.jpeg",
         "description": "Red",
-        "price": 2.30,
+        "price": 3.0,
         "filter": "Other",
-        "id": 22
+        "id": 22,
+        "inCart":0
     },
     {
         "name": "Lentils",
         "image": "../images/products/leca2.jpeg",
         "description": "Brown",
-        "price": 2.30,
+        "price": 3.0,
         "filter": "Other",
-        "id": 23
+        "id": 23,
+        "inCart":0
     },
     {
         "name": "Milk Alpro",
         "image": "../images/products/milk1.jpeg",
         "description": "Almond",
-        "price": 2.30,
+        "price": 4.50,
         "filter": "Milk",
-        "id": 24
+        "id": 24,
+        "inCart":0
     },
     {
         "name": "Milk Alpro",
         "image": "../images/products/milk2.jpeg",
         "description": "Coconut & Almond",
-        "price": 2.30,
+        "price": 4.50,
         "filter": "Milk",
-        "id": 25
+        "id": 25,
+        "inCart":0
     },
     {
         "name": "Milk Alpro",
         "image": "../images/products/milk3.jpeg",
         "description": "Protein Soya",
-        "price": 2.30,
+        "price": 4.50,
         "filter": "Milk",
-        "id": 26
+        "id": 26,
+        "inCart":0
     },
     {
         "name": "Milk Alpro",
         "image": "../images/products/milk4.webp",
         "description": "Oat",
-        "price": 2.30,
+        "price": 4.50,
         "filter": "Milk",
-        "id": 27
+        "id": 27,
+        "inCart":0
     },
     {
         "name": "Milk Alpro",
         "image": "../images/products/milk5.jpeg",
         "description": "Coconut",
-        "price": 2.30,
+        "price": 4.50,
         "filter": "Milk",
-        "id": 28
+        "id": 28,
+        "inCart":0
     },
     {
         "name": "Peanut Butter",
         "image": "../images/products/peanutbutter.png",
         "description": "",
-        "price": 2.30,
+        "price": 5.50,
         "filter": "Other",
-        "id": 29
+        "id": 29,
+        "inCart":0
     },
     {
         "name": "Protein",
         "image": "../images/products/protein1.jpeg",
         "description": "",
-        "price": 2.30,
+        "price": 9.50,
         "filter": "Protein",
-        "id": 30
+        "id": 30,
+        "inCart":0
     },
     {
         "name": "Protein",
         "image": "../images/products/protein2.jpeg",
         "description": "",
-        "price": 2.30,
+        "price": 9.50,
         "filter": "Protein",
-        "id": 31
+        "id": 31,
+        "inCart":0
     },
     {
         "name": "Protein",
         "image": "../images/products/protein3.jpeg",
         "description": "",
-        "price": 2.30,
+        "price": 9.50,
         "filter": "Protein",
-        "id": 32
+        "id": 32,
+        "inCart":0
     },
     {
         "name": "Protein",
         "image": "../images/products/protein5.jpeg",
         "description": "",
-        "price": 2.30,
+        "price": 9.50,
         "filter": "Protein",
-        "id": 33
+        "id": 33,
+        "inCart":0
     },
     {
         "name": "Sugar",
         "image": "../images/products/sugar1.jpeg",
         "description": "Coconut",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Other",
-        "id": 34
+        "id": 34,
+        "inCart":0
     },
     {
         "name": "Sugar",
         "image": "../images/products/sugar2.jpeg",
         "description": "Ceylon Cinnamon",
-        "price": 2.30,
+        "price": 2.50,
         "filter": "Other",
-        "id": 35
+        "id": 35,
+        "inCart":0
     },
     {
         "name": "Curcuma",
         "image": "../images/products/zacin2.jpeg",
         "description": "Curcuma Longa",
-        "price": 2.30,
+        "price": 3.50,
         "filter": "Other",
-        "id": 36
+        "id": 36,
+        "inCart":0
+    },
+    {
+        "name": "Cinnamon",
+        "image": "../images/products/zacin1.jpeg",
+        "description": "Curcuma Longa",
+        "price": 3.50,
+        "filter": "Other",
+        "id": 37,
+        "inCart":0
     }
 ]
